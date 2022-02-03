@@ -33,12 +33,10 @@ for(let i = 0; i < 256; i++) {
     sketch.appendChild(square);
 }
 
-
 for(i = 0; i < 256; i++)
 {
     let etch = document.getElementById(i);
     etch.addEventListener('mouseenter', function(e) {
         e.target.style.backgroundColor = 'green';
     });
-    
 }
