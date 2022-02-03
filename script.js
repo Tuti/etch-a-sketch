@@ -1,4 +1,3 @@
-
 const container = document.querySelector('#container');
 const sketch = document.querySelector('#sketch');
 
@@ -40,3 +39,4 @@ for(i = 0; i < 256; i++)
         e.target.style.backgroundColor = 'green';
     });
 }
+
